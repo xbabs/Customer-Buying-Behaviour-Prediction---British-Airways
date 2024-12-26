@@ -24,7 +24,7 @@ from sklearn.svm import SVC
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.naive_bayes import GaussianNB
 
-@st.cache_data
+@st.cache
 def load_data():
     # Use the raw URL to access the CSV data directly
     url = "https://raw.githubusercontent.com/xbabs/Customer-Buying-Behaviour-Prediction---British-Airways/main/BA%20customer_booking.csv"
